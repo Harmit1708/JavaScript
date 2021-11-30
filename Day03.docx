@@ -1,0 +1,84 @@
+
+
+1.	For the given JSON iterate over all for loops (for, for in, for of, forEach)
+    •	let result  = [{
+          "id": "1",
+          "name": "Lura Senger",
+          "email": "Xander_Collier@yahoo.com"
+        },
+        {
+          "id": "2",
+          "name": "Wilburn Weber",
+          "email": "Bennett_Kreiger11@yahoo.com"
+        },
+        {
+          "id": "3",
+          "name": "Tyrique Hahn",
+          "email": "Juston.Altenwerth@yahoo.com"
+        },
+        {
+          "id": "4",
+          "name": "Lenny Bailey",
+          "email": "Guiseppe_Hegmann@yahoo.com"
+        },
+        {
+          "id": "5",
+          "name": "Vladimir Keeling",
+          "email": "Louisa_Walsh18@hotmail.com"
+        }]
+
+        //for in
+        // for(var i in result){
+        //     console.log(result[i].id, result[i].name, result[i].email)
+        // }
+        //for loop
+        // for(i = 0;i < result.length; i++){
+        //             console.log(result[i].id, result[i].name, result[i].email)
+        // }    
+        //forEach
+        // result.forEach(myFunction)
+        // function myFunction(result){
+        //     console.log(result.id,result.name,result.email)
+        // }
+     //for of
+    //     for (var i of result) {
+    //          console.log(i.id, i.name, i.email);
+    //  }
+    
+2. Create your own resume data in JSON format
+
+  •	var resume = {
+
+  "basics”: {
+      "name”: Harmit Sonani",
+      "email":"Harmitsonani@gmail.com",
+      "Phone_no":7043107143,
+      "degree”: “BCA-Bachelor of Computer Applications.",
+      "location": {
+        "address":"c-2062/A, ocean park street no:3, kaliyabid",
+        "postalcode":"364002",
+        "city”: “Bhavnagar",
+        "Country_code":"+91",
+        "region”: “Hindu"
+      },
+      "education": {
+        "institute": "Mkbu University",
+        "area”: “Bhavnagar",
+        "Study_type": "BCA",
+        "startingyear":2018,
+        "endingyear":2021
+      },
+      "skills": [{
+        "name”: “programming languages",
+        "level”: “intermediate",
+        "Programming_languages":"JavaScript"
+      }],
+      "languages": [{
+        "name”: “English",
+      }],
+      "interest": [{
+        "name”: “sports",
+        "Sports_name":"cricket"
+      }]
+  }
+  }
