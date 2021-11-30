@@ -247,7 +247,6 @@ console.log(countriesdetails);
 
 //Task 4
 let TotalExperirence = country.reduce((a = 0, population) => {
-  debugger;
   if (population.population) {
     return a + population.population;
   }
