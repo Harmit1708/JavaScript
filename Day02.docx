@@ -1,0 +1,79 @@
+1.	List 5 difference between Browser JS (console) v Nodejs
+
+  •	Nodejs
+
+      o	Node doesn’t have a predefined “window” object because it doesn’t have a window to draw anything.
+
+      o	“location” object is related to a particular URL; that means it is page-specific. So, the node doesn’t require that.
+
+
+      o	Of course, Node doesn’t have a “document” object also, because it never has to render anything on a page.
+
+      o	Node has “global”, which is a predefined global object. It contains several functions that are not available in browsers because they are needed for server-side works only.
+
+
+      o	The “require” object is predefined in Node which is used to include modules in the app.
+
+      o	In Node everything is a module. You must keep your code inside a module.
+
+  •	Browser JS (console)
+
+      o	“window” is a predefined global object which has functions and attributes, that have to deal with the window that has been drawn.
+
+      o	“location” is another predefined object in browsers, that has all the information about the URL we have loaded.
+
+
+      o	“document”, which is also another predefined global variable in browsers, has the HTML which is rendered.
+
+      o	Browsers may have an object named “global”, but it will be the exact one as “window”.
+
+
+      o	Browsers don’t have “require” predefined. You may include it in your app for asynchronous file loading.
+
+      o	Modeling is not mandatory in client-side JavaScript, i.e., in browsers.
+
+
+2.	watch & summary 5 points – 
+
+  •	Parsing Html
+
+      o	Html is forgiving a nature: you can make a lot of mistakes and it will just work on that.
+
+      o	Parsing is not straightforward: you can make a lot of mistakes and it will still work for you that means that the parsing straight forward.
+
+      o	Can be halted: in most languages, if you make a mistake or throw an error it will error out will try to recover it can be halted.
+
+      o	Will do speculative parsing: when it can parse certain situations will do speculative parsing.
+
+      o	It’s re-entrant: It can be interrupted when the description tag can bring it down, something like a document.
+
+
+  •	Render
+
+      o	The render from going through all the HTML constructor and DOM tree, if we do it at the bottom it can go through and do it uninterrupted. is won’t need any script tags, create all the elements create the DOM tree at the end you will get all the scripts and it will be faster to render.
+
+      o	Render tree is actually multiple trees
+
+      	RenderObject
+      	RenderStyles
+      	RenderLayers
+      	Lineboxes
+
+   •	DOM
+
+      o	DOM node is converted to a render object or the rendered object has a reference to the Dom node.
+
+
+
+
+
+3.	Execute the below code and write your description in txt file
+      a.	typeof(1)  		=>number
+      b.	typeof(1.1)		=>number
+      c.	typeof('1.1')		=>string
+      d.	typeof(true)		=>boolean
+      e.	typeof(null)		=>object
+      f.	typeof(undefined)	=>undefined
+      g.	typeof([])		=>object
+      h.	typeof({})		=>object
+      i.	typeof(NaN)		=>number
