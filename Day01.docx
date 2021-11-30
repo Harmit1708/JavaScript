@@ -1,0 +1,26 @@
+1.	Write a blog on Difference between HTTP1.1 vs HTTP2
+
+  •	HTTP1.1
+
+      o	HTTP1.1 launched at 1997
+      o	HTTP/1.1 loads resources one after the other, so if one resource cannot be loaded, it blocks all the other resources behind it.
+      o	HTTP1.x is used to process text commands to complete request-response cycles.
+      o	Can define 24 status codes, error reporting is quicker and more efficient
+      o	It is relatively secure since it
+
+  •	HTTP2
+
+      o	HTTP2 launched at 2015
+      o	HTTP/2 is much faster and more efficient than HTTP/1.1.
+      o	HTTP/2 can use a single TCP connection to send multiple streams of data at once so that no one resource blocks any other resource. 
+      o	HTTP2 will use binary commands (in 1s and 0s) to execute the same tasks.
+      o	Underlying semantics of HTTP such as headers, status codes remain the same
+      o	Security concerns from previous versions will continue to be
+
+2.	Write a blog about objects and its internal representation in Javascript
+
+    •	Objects, in JavaScript, are its most important data type and forms the building blocks for modern JavaScript. These objects are quite different from JavaScript’s primitive data-types(Number, String, Boolean, null, undefined, and symbol) in the sense that while these primitive data-types all store a single value each (depending on their types).
+    •	Objects are more complex and each object may contain any combination of these primitive data types as well as reference data types.
+    •	An object is a reference data type. Variables that are assigned a reference value are given a reference or a pointer to that value. That reference or pointer points to the location in the memory where the object is stored. The variables don’t store the value.
+
+
