@@ -58,7 +58,12 @@
     for(i = 0; i < countriesInfo.length ; i++){
         console.log(i,countriesInfo[i].flag)
     }
-
+    Output:
+    0 'https://en.wikipedia.org/wiki/India#/media/File:Flag_of_India.svg'
+    1 'https://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_the_People%27s_Republic_of_China.svg'
+    2 'https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg'
+    3 'https://en.wikipedia.org/wiki/Canada#/media/File:Flag_of_Canada_(Pantone).svg'
+    4 'https://upload.wikimedia.org/wikipedia/en/f/f3/Flag_of_Russia.svg'
 //3.	Use the same rest countries and print all countries name, region, sub region and population
     •	let countriesInfo = [{
         name : "india",
@@ -106,3 +111,9 @@
     for(i=0;i<countriesInfo.length;i++){
         console.log(i,countriesInfo[i].name,countriesInfo[i].region,countriesInfo[i].subregion,countriesInfo[i].population)
     }
+    Output:
+    0 'india' 'asia' 'south asia' '139 cr'
+    1 'china' 'eastern, central and western' 'Inner Mongolia, Guangxi, Chongqing, Sichuan, Guizhou, Yunnan, Tibet, Shaanxi, Gansu, Qinghai, Ningxia, and Xinjiang' '140 cr'
+    2 'United States' 'North America' 'Northeast, the Midwest, the South, and the West' '32.95 cr'
+    3 'Canada' 'The Atlantic Provinces' 'Central Canada,The Prairie Provinces,The West Coast,The Northern Territories' '3.8 cr'
+    4 'Russia' 'Kola-Karelian' 'Ural Mountains,Russian Plain,West Siberian Plain' '14.41 cr'
