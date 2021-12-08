@@ -233,10 +233,99 @@ var country = [
 let data = country.filter((x) => x.region === "Asia");
 console.log(data);
 
+Output:
+[ { name: 'Afghanistan',
+    callingCodes: [ '93' ],
+    capital: 'Kabul',
+    altSpellings: [ 'AF', 'Afġānistān' ],
+    region: 'Asia',
+    subregion: 'Southern Asia',
+    borders: [ 'IRN', 'PAK', 'TKM', 'UZB', 'TJK', 'CHN' ],
+    nativeName: 'افغانستان',
+    numericCode: '004',
+    currencies: 'AFN',
+    languages: [ [Object], [Object], [Object] ],
+    flag: 'https://restcountries.eu/data/afg.svg' } ]
+
 
 //Task 2 
 let data = country.filter((x) => x.population < 200000);
 console.log(data);
+
+Output:
+[ { name: 'Åland Islands',
+    callingCodes: [ '358' ],
+    capital: 'Mariehamn',
+    region: 'Europe',
+    subregion: 'Northern Europe',
+    population: 28875,
+    demonym: 'Ålandish',
+    nativeName: 'Åland',
+    numericCode: '248',
+    currencies: 'EUR',
+    languages: [ [Object] ],
+    flag: 'https://restcountries.eu/data/ala.svg' },
+  { name: 'American Samoa',
+    callingCodes: [ '1684' ],
+    capital: 'Pago Pago',
+    region: 'Oceania',
+    subregion: 'Polynesia',
+    population: 57100,
+    demonym: 'American Samoan',
+    timezones: [ 'UTC-11:00' ],
+    nativeName: 'American Samoa',
+    numericCode: '016',
+    currencies: 'USD',
+    languages: [ [Object], [Object] ],
+    flag: 'https://restcountries.eu/data/asm.svg' },
+  { name: 'Andorra',
+    callingCodes: [ '376' ],
+    capital: 'Andorra la Vella',
+    region: 'Europe',
+    subregion: 'Southern Europe',
+    population: 78014,
+    demonym: 'Andorran',
+    nativeName: 'Andorra',
+    numericCode: '020',
+    currencies: 'EUR',
+    languages: [ [Object] ],
+    flag: 'https://restcountries.eu/data/and.svg' },
+  { name: 'Anguilla',
+    callingCodes: [ '1264' ],
+    capital: 'The Valley',
+    altSpellings: [ 'AI' ],
+    region: 'Americas',
+    subregion: 'Caribbean',
+    population: 13452,
+    demonym: 'Anguillian',
+    timezones: [ 'UTC-04:00' ],
+    nativeName: 'Anguilla',
+    numericCode: '660',
+    currencies: 'XCD',
+    languages: [ [Object] ],
+    flag: 'https://restcountries.eu/data/aia.svg' },
+  { name: 'Antarctica',
+    callingCodes: [ '672' ],
+    region: 'Polar',
+    population: 1000,
+    nativeName: 'Antarctica',
+    numericCode: '010',
+    currencies: 'AUD',
+    languages: [ [Object], [Object] ],
+    flag: 'https://restcountries.eu/data/ata.svg' },
+  { name: 'Antigua and Barbuda',
+    callingCodes: [ '1268' ],
+    capital: 'Saint John\'s',
+    altSpellings: [ 'AG' ],
+    region: 'Americas',
+    subregion: 'Caribbean',
+    population: 86295,
+    demonym: 'Antiguan, Barbudan',
+    nativeName: 'Antigua and Barbuda',
+    numericCode: '028',
+    currencies: 'XCD',
+    languages: [ [Object] ],
+    flag: 'https://restcountries.eu/data/atg.svg' } ]
 
 //Task 3
 let countriesdetails = [];
@@ -244,6 +333,38 @@ country.forEach(function (data) {
   countriesdetails.push(data.name,data.capital,data.flag);
 });
 console.log(countriesdetails);
+
+Output:
+[ 'Afghanistan',
+  'Kabul',
+  'https://restcountries.eu/data/afg.svg',
+  'Åland Islands',
+  'Mariehamn',
+  'https://restcountries.eu/data/ala.svg',
+  'Albania',
+  'Tirana',
+  'https://restcountries.eu/data/alb.svg',
+  'Algeria',
+  'Algiers',
+  'https://restcountries.eu/data/dza.svg',
+  'American Samoa',
+  'Pago Pago',
+  'https://restcountries.eu/data/asm.svg',
+  'Andorra',
+  'Andorra la Vella',
+  'https://restcountries.eu/data/and.svg',
+  'Angola',
+  'Luanda',
+  'https://restcountries.eu/data/ago.svg',
+  'Anguilla',
+  'The Valley',
+  'https://restcountries.eu/data/aia.svg',
+  'Antarctica',
+  undefined,
+  'https://restcountries.eu/data/ata.svg',
+  'Antigua and Barbuda',
+  'Saint John\'s',
+  'https://restcountries.eu/data/atg.svg' ]
 
 //Task 4
 let TotalExperirence = country.reduce((a = 0, population) => {
@@ -253,6 +374,27 @@ let TotalExperirence = country.reduce((a = 0, population) => {
 }, 0);
 console.log(TotalExperirence);
 
+Output:
+69418762
+
 //Task 5 
 let data = country.filter((x) => x.currencies == "USD");
 console.log(data);
+
+ 
+INPUT
+OUTPUT
+Output:
+[ { name: 'American Samoa',
+    callingCodes: [ '1684' ],
+    capital: 'Pago Pago',
+    region: 'Oceania',
+    subregion: 'Polynesia',
+    population: 57100,
+    demonym: 'American Samoan',
+    timezones: [ 'UTC-11:00' ],
+    nativeName: 'American Samoa',
+    numericCode: '016',
+    currencies: 'USD',
+    languages: [ [Object], [Object] ],
+    flag: 'https://restcountries.eu/data/asm.svg' } ]
