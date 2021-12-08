@@ -19,6 +19,8 @@
     }
     console.log("is object equal "+ flag);
 
+    Output:
+    is object equal false
 //2.Use the rest countries API URL -> https://restcountries.eu/rest/v2/all and display all the country flags in console
 
     •	let countriesInfo = [{
