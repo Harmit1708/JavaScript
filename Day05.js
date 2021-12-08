@@ -12,6 +12,9 @@
         }
         odd(arr=[1,2,3,4,5,6,7,8,9,10]);
 
+        Output:
+        [ 1, 3, 5, 7, 9 ]
+
     •	Convert all the strings to title caps in a string array
         let result = [];
         let caps = function(arr){
@@ -22,6 +25,9 @@
 
         }
         caps(arr=["harmit","sonani"]);
+
+        Output:
+        [ 'HARMIT', 'SONANI' ]
 
     •	Sum of all numbers in an array
         let result = [];
@@ -36,8 +42,11 @@
         }
         sum(arr=[1,2,3,4,5]);
 
+        Output:
+        [ 15 ]
+
     •	Return all the prime numbers in an array
-        Let result = [];
+        let result = [];
         var k=0;
         let prime = function(arr)
         {
@@ -75,7 +84,8 @@
         };
         prime(arr = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]);
 
-
+        Output:
+        [ 2, 3, 5, 7, 11, 13, 17, 19 ]
 
     •	Return all the palindromes in an array
         let flag = 0;
@@ -97,6 +107,9 @@
         }
         console.log(palindrome(Number = [1,3,5,3,1]));
 
+        Output:
+        [ 1, 3, 5, 3, 1 ]
+
     •	Return median of two sorted arrays of same size
         let median  =  function(a,b){
             let merge = [...a, ...b].sort((a, b) => a - b);
@@ -110,6 +123,9 @@
         const arr = [1, 12, 15, 26, 38,45];
         const arr1 = [2, 13, 17, 30, 45, 47];
         console.log(median(arr,arr1));
+
+        Output:
+        21.5
 
     •	Remove duplicates from an array
         var result = [];
@@ -128,7 +144,10 @@
         }
         console.log(result);
         }
-        duplicate(arr=[1,1,2,3,4,5,6,7,8,9,9,10,11,11,11,11,12,13,14,15,16,17,18,19,20,20])
+        duplicate(arr=[1,1,2,3,4,5,6,7,8,9,9,10,11,11,11,11,12,13,14,15,16,17,18,19,20,20]);
+
+        Output:
+        [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 ]
 
     •	Rotate an array by k times
         var j=0;
@@ -156,8 +175,11 @@
         }
         let array = [1,2,3,4,5];
         let n = array.length;
-        let k=0;
+        let k=2;
         rotate(array,n,k);
+
+        Output:
+        [ 4, 5, 1, 2, 3 ]
 
 2.	Do the below programs in arrow functions
     a.	Print odd numbers in an array
@@ -175,6 +197,8 @@
         }
         odd(arr=[1,2,3,4,5,6,7,8,9,10]);
 
+        Output:
+        [ 1, 3, 5, 7, 9 ]
 
 
     b.	Convert all the strings to title caps in a string array
@@ -190,6 +214,8 @@
         }
         caps(arr=["harmit","sonani"]);
 
+        Output:
+        [ 'HARMIT', 'SONANI' ]
 
 
     c.	Sum of all numbers in an array
@@ -205,6 +231,9 @@
         }
         sum(arr=[1,2,3,4,5]);
 
+        Output:
+        [ 15 ]
+
     d.	Return all the prime numbers in an array
         result = [];
         var k=0;
@@ -212,7 +241,7 @@
         {
               for(i=0;i<arr.length;i++)
               {
-                    If(arr[i]===1)
+                   if(arr[i]===1)
                   {
                         continue;
                         }	
@@ -230,7 +259,7 @@
                             break;
                         }
                   }
-                  If(k===0 && arr[i]!=2)
+                  if(k===0 && arr[i]!=2)
                 {
                         result.push(arr[i])
                      }
@@ -240,6 +269,9 @@
             }
         };
         console.log(prime(arr = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]));
+
+        Output:
+        [ 2, 3, 5, 7, 11, 13, 17, 19 ]
 
     e.	Return all the palindromes in an array
         let flag = 0;
@@ -265,4 +297,5 @@
         }
         console.log(palindrome(Num = [1,3,5,3,1]));
 
-
+        Output:
+        [ 1, 3, 5, 3, 1 ]
