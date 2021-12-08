@@ -11,6 +11,8 @@
       }
       let Person1 = new Person("Harmit", 21, 5.8, 60);
 
+Output:
+Harmit 21 5.8 60
 
 2. write a class to calculate uber price.
 	
@@ -28,4 +30,5 @@
     let Uber1 = new Uber(15,10);
     console.log(Uber1.getCal());
 
-
+Output:
+150
