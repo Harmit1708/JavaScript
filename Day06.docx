@@ -1,29 +1,33 @@
 2.https://medium.com/@reach2arunprakash/guvi-zen-class-find-the-culprits-and-nail-them-9ee6c67c44fb
-Problem 1: <!DOCTYPE html>
-           <html>
-           <body>
-            <script>
-            alert( “I’m JavaScript!’);
-            </script>
-            Whats the error in this ?
-           </body>
-           </html>
+Problem 1: 
 
-Solution: <!DOCTYPE html>
-          <html>
-          <body>
-           <script>
+<--html file & javascript-->
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+           alert( “I’m JavaScript!’);
+</script>
+ Whats the error in this ?
+</body>
+</html>
+
+Solution: 
+
+<--html file & Javascript-->
+<!DOCTYPE html>
+<html>
+<body>
+<script>
            alert( "“I’m JavaScript!");
-           </script>
-           Whats the error in this ?
-          </body>
-          </html>
+</script>
+ Whats the error in this ?
+</body>
+</html>
           
 Problem 2: 
-file 1 -> fix.html
 
-Problem 2:
-
+<--html file-->
 <!DOCTYPE html>
 <html>
 <body>
@@ -31,15 +35,145 @@ Problem 2:
 </body>
 </html>
 
+<-- javascript file-->
 alert(“I’m invoked!”);
 
 solution :
+
+<--html file-->
 <!DOCTYPE html>
 <html>
 <body>
 <script src="script.js"></script>
 </body>
 </html> 
-file 2 -> script.js
 
+<--javascript file-->
 alert("“I’m invoked!”?");
+
+Problem 3:
+
+<--html file-->
+<!DOCTYPE html>
+<html>
+<body>
+ <script src=”script.js”></script>
+</body>
+</html>
+
+<--javascript file-->
+alert("I'm JavaScript!");
+alert('Hello') // this line is not having semicolon
+alert(`Wor
+ ld`)
+alert(3 +
+1
++ 2); // this is multiple line code and its working
+
+solution:
+
+The first of all alert attribute is working like every time refresh the browser page it will print.
+anything written inside the tag it will print the inside the pop-up it will print.
+and write some numbers with plus sign then it will sum of all numbers. 
+
+Problem 4:
+
+<--html file-->
+<!DOCTYPE html>
+<html>
+<body>
+ <script src=”script.js”></script>
+</body>
+</html>
+
+<--javascript file-->
+let admin=9, fname=10.5; 
+fname = "Guvi";
+lname = "geek"
+admin = fname+lname;
+alert( admin ); // "Guvi geek"
+
+solution:
+
+<--html file-->
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="script.js"></script>
+</body>
+</html>
+
+<--javascript file-->
+let admin = 9,
+  fname = 10.5;
+fname = "Guvi" + " ";
+lname = "geek";
+admin = fname + lname;
+alert(admin); // "Guvi geek"
+
+Problem: 5
+
+<--html file-->
+<!DOCTYPE html>
+<html>
+<body>
+ <script src=”script.js”></script>
+</body>
+</html>
+
+<--javascript file-->
+let fname = 10.5;
+fname = "Guvi";
+lname = "geek";
+let name = fname + lname;
+alert("hello ${name}");
+
+solution:
+
+<--html file-->
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="script.js"></script>
+</body>
+</html>
+
+<--javascript file-->
+let fname = 10.5;
+fname = "Guvi";
+lname = "geek";
+let name = fname + lname;
+alert(`hello ${name}`);
+
+Problem 6:
+
+<--html file-->
+<!DOCTYPE html>
+<html>
+<body>
+ <script src=”script.js”></script>
+</body>
+</html>
+
+<--javascript file-->
+let a = prompt("First number?");
+let b = prompt("Second number?");
+alert(a + b);
+
+solution:
+
+<--html file-->
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="script.js"></script>
+</body>
+</html>
+
+<--javascript file-->
+let a = prompt("First number?");
+let b = prompt("Second number?");
+alert(+a + +b);
+
+
+Problem 7:
