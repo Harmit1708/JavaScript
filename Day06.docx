@@ -1,0 +1,45 @@
+2.https://medium.com/@reach2arunprakash/guvi-zen-class-find-the-culprits-and-nail-them-9ee6c67c44fb
+Problem 1: <!DOCTYPE html>
+           <html>
+           <body>
+            <script>
+            alert( “I’m JavaScript!’);
+            </script>
+            Whats the error in this ?
+           </body>
+           </html>
+
+Solution: <!DOCTYPE html>
+          <html>
+          <body>
+           <script>
+           alert( "“I’m JavaScript!");
+           </script>
+           Whats the error in this ?
+          </body>
+          </html>
+          
+Problem 2: 
+file 1 -> fix.html
+
+Problem 2:
+
+<!DOCTYPE html>
+<html>
+<body>
+ <script src=”script.js”></script>
+</body>
+</html>
+
+alert(“I’m invoked!”);
+
+solution :
+<!DOCTYPE html>
+<html>
+<body>
+<script src="script.js"></script>
+</body>
+</html> 
+file 2 -> script.js
+
+alert("“I’m invoked!”?");
