@@ -198,8 +198,7 @@ else
 }
 
 solution:
-because inside the variable a 2 is greater than 12 so condition is false that's why print the diffuse.
-and change the condition and 12 is greater than 2 than condition is true that's why  print the code is blasted
+because their is string and check the ascii value that's why print the code is blasted.
 
 Problem 8:
 
@@ -566,6 +565,32 @@ for (let i = 0; i < gifts.length; i++) {
   document.write(`Wrapped ${gifts[i]} and added a bow!`);
 }
 
+Problem 17:
+
+<--html file-->
+<!DOCTYPE html>
+<html>
+<body>
+ <script src=”script.js”></script>
+</body>
+</html>
+
+<--javascript file-->
+let countdown = 100;
+while (countdown > 0) {
+  countdown--;
+  if(countdown == 0)
+  {
+   console.log("bomb triggered");
+  }
+}
+
+Solution:
+
+<--html file-->
+
+
+<--javascript file-->
 
 
 
