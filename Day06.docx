@@ -283,6 +283,38 @@ if (value == 4) {
 }
 
 Problem 10:
+<--html file-->
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="script.js"></script>
+</body>
+</html>
+
+<--javascript file-->
+let login = 'Employee';
+let message = (login == 'Employee') ? :
+  (login == 'Director') ? 'Greetings' :
+  (login == '') ? 'No login' :
+  '';
+console.log(message);
+
+Solution:
+
+<--html file-->
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="script.js"></script>
+</body>
+</html>
+
+<--javascriot file-->
+let login = 'Employee';
+let message = (login == 'Employee') ? 'Welcome' : 'Not Employee'
+console.log(message);
+
+Problem 11:
 
 <--html file-->
 <!DOCTYPE html>
@@ -326,7 +358,7 @@ if (null || 2 || undefined) {
   alert(message);
 }
 
-Problem 11:
+Problem 12:
 
 <--html file-->
 <!DOCTYPE html>
@@ -372,7 +404,7 @@ if (null && lock && undefined) {
   alert(message);
 }
 
-Problem 12:
+Problem 13:
 
 <--html file-->
 <!DOCTYPE html>
@@ -418,7 +450,7 @@ if ((lock && " ") && undefined) {
   alert(message);
 }
 
-Problem 13:
+Problem 14:
 
 <--html file-->
 <!DOCTYPE html>
@@ -452,7 +484,7 @@ while (i) {
   document.write(i--);
 }
 
-Problem 14:
+Problem 15:
 
 <--html file-->
 <!DOCTYPE html>
@@ -499,7 +531,7 @@ for(i=1;i<=10;i++){
     document.write(i)
 }
 
-Problem 15:
+Problem 16:
 
 <--html file-->
 <!DOCTYPE html>
@@ -533,7 +565,7 @@ for (let num = 2; num <= 20; num += 1) {
     }
 }
 
-Problem 16:
+Problem 17:
 
 <--html file-->
 <!DOCTYPE html>
@@ -565,7 +597,7 @@ for (let i = 0; i < gifts.length; i++) {
   document.write(`Wrapped ${gifts[i]} and added a bow!`);
 }
 
-Problem 17:
+Problem 18:
 
 <--html file-->
 <!DOCTYPE html>
@@ -604,7 +636,7 @@ while (countdown < 0) {
   }
 }
 
-Problem 18:
+Problem 19:
 
 <--html file-->
 <!DOCTYPE html>
@@ -629,7 +661,7 @@ console.log(msg);
 Solution:
 because there is a two if statement javascript is only first one is considered that's why print the first msg hy
 
-Problem 19:
+Problem 20:
 <--html file-->
 <!DOCTYPE html>
 <html>
