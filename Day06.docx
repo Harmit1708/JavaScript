@@ -971,3 +971,101 @@ Part = 2;
  console.log(sum_even);
 
 Answer : 
+
+3.https://medium.com/@reach2arunprakash/guvi-zen-simple-debugging-tasks-adcdc2d3249d
+
+Part = 3;
+
+Problem 1 : 
+aa = (f,s,t) => {
+ let f,s,t;
+ console.log(f,s,t);
+ if(f>s &&f>t){
+ console.log(f)}
+ else if(s>f && s>t){
+ console.log(s)}
+ else{
+ console.log(t)}
+}
+aa(1,2,3);
+
+Solution:
+aa = (f,s,t) => {
+ f,s,t;
+ console.log(f,s,t);
+ if(f>s &&f>t){
+ console.log(f)}
+ else if(s>f && s>t){
+ console.log(s)}
+ else{
+ console.log(t)}
+}
+aa(1,2,3);
+
+Problem 2:
+let n = 123;
+console.log(add(n));
+function add(n)
+{
+let sum = 10;
+for(var i=0;i<n.length;i++){
+ sum+=n[i]
+ }
+ return sum;
+}
+
+Solution:
+function add(n) {
+  for (var i = 0; i < n.length; i++) 
+  {
+    sum += n[i];
+  }
+  return sum;
+}
+let n = [123];
+let sum = 10;
+console.log(add(n));
+
+Problem 3:
+const arr = [9,8,5,6,4,3,2,1];
+(function() {
+ let sum = 0;
+ for (var i = 0; i <= arr.length; i++);{
+ sum += arr[i];
+ }
+ console.log(sum);
+ return sum;
+})();
+
+Solution:
+
+const arr = [9, 8, 5, 6, 4, 3, 2, 1];
+(function () {
+  let sum = 0;
+  for (var i = 0; i <arr.length; i++)
+  {
+    sum += arr[i];
+  }
+  console.log(sum);
+})();
+
+Problem 4:
+
+var arr = [“guvi”, “geek”, “zen”, “fullstack”];
+var ano = function(arro) {
+ for (var i = 0; i <= arro.length; i++) {
+ console.log(arro[i][0].toUpperCase() + arro[i].substr(1));
+ }
+}
+ano();
+
+solution:
+var ano = function(arr){;
+ for(var i = 0; i <= arr.length; i++) 
+ {
+    console.log(arr[2].toUpperCase());
+ }
+}
+ano((arr = ["guvi", "geek", "zen", "fullstack"]));
+
+Problem 5:
