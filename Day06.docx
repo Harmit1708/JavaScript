@@ -1113,3 +1113,71 @@ sum = num.reduce(sum);
 console.log(sum);
 
 Problem 7:
+
+Problem 8:
+Fix the code to gen Title caps.
+
+var arr = [“guvi”, “geek”, “zen”, “fullstack”];
+(function() {
+ for (var i = 0; i <= arr.length; i++) {
+ console.log(arr[0][i].toUpperCase() + arr[i].substr(1));
+ }
+})();
+
+Solution:
+var arr = ["guvi", "geek", "zen", "fullstack"];
+(function() {
+ for (var i = 0; i <= arr.length; i++) {
+ console.log(arr[2].toUpperCase());
+ }
+})();
+
+Problem 9:
+print all odd numbers in an array using IIFE function
+
+var arr = [1, 2, 3, 5, 7, 79, 7, 2, 6, 9, 4];
+(function() {
+ for (var i = 0; i < arr.length; i++) {
+ if (arr[i] % 2 === 0) {
+ console.log(arr[i]);
+ }}
+})();
+
+Solution:
+var arr = [1, 2, 3, 5, 7, 79, 7, 2, 6, 9, 4];
+(function () {
+  for (var i = 0; i < arr.length; i++) {
+    if (arr[i] % 2 === 1) {
+      console.log(arr[i]);
+    }
+  }
+})();
+
+Probem 10:
+Fix the code to reverse.
+
+(function(str){
+ str1 = str.split(“ “).reverse().join(“”);
+ console.log(str1); 
+})(“abcd”)
+
+Solution:
+(function(str){
+ str1 = str.split("").reverse().join("");
+ console.log(str1); 
+})("abcd");
+
+Problem 11:
+Fix the code to remove duplicates.
+
+var res = function(arr){
+ for(var i=0; i < arr.length; i++){
+ newArr = [];
+ if(newArr.indexOf(arr[i]) == -1) {
+ newArr.push(arr[i]);
+ } }
+ console.log(newArr)
+}
+res([“guvi”,”geek”,”guvi”,”duplicate”,”geeK”])
+
+Solution:
