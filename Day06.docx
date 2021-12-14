@@ -198,7 +198,7 @@ else
 }
 
 solution:
-because their is string and check the ascii value that's why print the code is blasted.
+because their is string and check the ascii value and javascript string get only one character so codition check only first char that's why print the code is blasted.
 
 Problem 8:
 
@@ -223,7 +223,7 @@ else
 
 Solution:
 if you not enter anyting inside the prompt then print success.
-and you enter a anynumber inside the prompt than print OMG it works for any number inc 0 
+and you enter a anynumber inside the prompt than print OMG it works for any number inc 0 .
 
 <--html file-->
 <!DOCTYPE html>
@@ -588,17 +588,71 @@ while (countdown > 0) {
 Solution:
 
 <--html file-->
-
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="script.js"></script>
+</body>
+</html>
 
 <--javascript file-->
+let countdown = 100;
+while (countdown < 0) {
+  countdown--;
+  if (countdown == 0) {
+    console.log("bomb triggered");
+  }
+}
 
+Problem 18:
 
+<--html file-->
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="script.js"></script>
+</body>
+</html>
 
+<--javascript file-->
+var lemein = “0”;
+var lemeout = 0;
+var msg = “”;
+if (lemein) {
+ msg += “hi”;
+ }
+if (lemeout) {
+ msg += ‘Hello’;
+}
+console.log(msg);
 
+Solution:
+because there is a two if statement javascript is only first one is considered that's why print the first msg hy
 
+Problem 19:
+<--html file-->
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="script.js"></script>
+</body>
+</html>
 
+<--javascript file-->
+var lemein = “0”;
+var lemeout = 0;
+var msg = “”;
+if (lemein) {
+ msg += “hi”;
+ }
+if (lemeout) {
+ msg += ‘Hello’;
+}
+console.log(msg);
 
+Solution:
 
+because there is two statement javascript is only first one is considered that's why and print the first if condition msg(hy)
 
 
 
