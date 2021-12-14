@@ -266,7 +266,179 @@ if (value === 4) {
 solution:
 
 <--html file-->
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="script.js"></script>
+</body>
+</html>
 
 <--javascript file-->
+let value = prompt("How many runs you scored in this ball");
+if (value == 4) {
+  alert("You hit a Four");
+} else if (value == 6) {
+  alert("You hit a Six");
+} else {
+  alert("I couldn't figure out");
+}
+
+Problem 10:
+
+<--html file-->
+<!DOCTYPE html>
+<html>
+<body>
+ <script src=”script.js”></script>
+</body>
+</html>
+
+<--javascript file-->
+// You cant change the value of the msg
+let message;
+if (null || 2 || undefined )
+{
+ let message = "welcome boss";
+}
+else
+{
+ let message = "Go away";
+}
+  console.log(message);
+
+Solution:
+
+<--html file-->
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="script.js"></script>
+</body>
+</html>
+
+<--javascript file-->
+// You cant change the value of the msg
+let message;
+if (null || 2 || undefined) {
+  let message = "welcome boss";
+  alert(message);
+} else {
+  let message = "Go away";
+  alert(message);
+}
+
+Problem 11:
+
+<--html file-->
+<!DOCTYPE html>
+<html>
+<body>
+ <script src=”script.js”></script>
+</body>
+</html>
+
+<--javascript file-->
+let message;
+let lock = 2;
+//Dont change any code below this 
+if (null || lock || undefined )
+{
+  message = "Go away";
+}
+else
+{
+ message = "welcome";
+}
+  console.log(message);
+  
+Solution:
+
+<--html file-->
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="script.js"></script>
+</body>
+</html>
+
+<--javascript file-->
+let message;
+let lock = 2;
+//Dont change any code below this
+if (null && lock && undefined) {
+  message = "Go away";
+  alert(message);
+} else {
+  message = "welcome";
+  alert(message);
+}
+
+Problem 12:
+
+<--html file-->
+<!DOCTYPE html>
+<html>
+<body>
+ <script src=”script.js”></script>
+</body>
+</html>
+
+<--javascript file-->
+let message;
+let lock = 2;
+//Dont change any code below this
+if (lock && " " || undefined )
+{
+  message = "Go away";
+}
+else
+{
+ message = "welcome";
+}
+console.log(message);
+
+Solution:
+
+<--html file-->
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="script.js"></script>
+</body>
+</html>
+
+<--javascript file-->
+let message;
+let lock = 2;
+//Dont change any code below this
+if ((lock && " ") && undefined) {
+  message = "Go away";
+  alert(message);
+} else {
+  message = "welcome";
+  alert(message);
+}
+
+Problem 13:
+
+<--html file-->
+<!DOCTYPE html>
+<html>
+<body>
+ <script src=”script.js”></script>
+</body>
+</html>
+
+<--javascript file-->
+//You can change only 2 characters
+let i = 3;
+while (i) {
+  console.log( --i );
+}
+
+Solution:
+
+<--html file-->
 
 
+<--javascript file-->
