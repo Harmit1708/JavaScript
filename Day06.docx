@@ -562,10 +562,8 @@ Solution:
 
 <--javascriot file-->
 //You are allowed to modify only one character
-for (let num = 2; num <= 20; num += 1) {
-    if(num%2==0){
-        document.write(num + " ");
-    }
+for (let num = 2; num <= 20; num += 2) {
+        console.log(num + " ");
 }
 
 Problem 17:
