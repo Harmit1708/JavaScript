@@ -177,3 +177,96 @@ alert(+a + +b);
 
 
 Problem 7:
+
+<--html file-->
+<!DOCTYPE html>
+<html>
+<body>
+ <script src=”script.js”></script>
+</body>
+</html>
+
+<--javascript file-->
+var a = "2" > "12";
+//Don't touch below this
+if (a) {
+  console.log("Code is Blasted")
+}
+else
+{
+  console.log("Diffused") 
+}
+
+solution:
+because inside the variable a 2 is greater than 12 so condition is false that's why print the diffuse.
+and change the condition and 12 is greater than 2 than condition is true that's why  print the code is blasted
+
+Problem 8:
+
+<--html file-->
+<!DOCTYPE html>
+<html>
+<body>
+ <script src=”script.js”></script>
+</body>
+</html>
+
+<--javascript file-->
+let a = prompt("Enter a number?");
+//Don't modify any code below this
+if (a) {
+ console.log( 'OMG it works for any number inc 0' );
+}
+else
+{
+ console.log( "Success" );
+}
+
+Solution:
+if you not enter anyting inside the prompt then print success.
+and you enter a anynumber inside the prompt than print OMG it works for any number inc 0 
+
+<--html file-->
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="script.js"></script>
+</body>
+</html>
+
+<--javascript file-->
+let a = prompt("Enter a number?");
+//Don't modify any code below this
+if (a) {
+  document.write("OMG it works for any number inc 0");
+} else {
+  document.write("Success");
+}
+
+Problem 9:
+
+<--html file-->
+<!DOCTYPE html>
+<html>
+<body>
+ <script src=”script.js”></script>
+</body>
+</html>
+
+<--javascript file-->
+let value = prompt('How many runs you scored in this ball');
+if (value === 4) {
+      console.log("You hit a Four");
+} else if (value === 6) {
+      console.log("You hit a Six");
+} else {
+      console.log("I couldn't figure out");
+}
+
+solution:
+
+<--html file-->
+
+<--javascript file-->
+
+
